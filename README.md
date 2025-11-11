@@ -55,8 +55,7 @@ Run Installation: Double-click the downloaded file (e.g., OllamaSetup.exe) and f
 
 Verify Installation: Open your Command Prompt or PowerShell and type the following command to check if the installation was successful:
 
-Bash
-```
+```bash
 ollama --version
 ```
 If successful, you should see the installed version number. An Ollama icon will also appear in your system tray, confirming the background service is running.
@@ -65,7 +64,7 @@ If successful, you should see the installed version number. An Ollama icon will 
 The nomic-embed-text model is an embedding model, which is specifically designed for generating the vector embeddings needed for your RAG system's retrieval step.
 
 Execute the Pull Command: In your Command Prompt or PowerShell, use the ollama pull command to download and install the model:
-```
+```bash
 ollama pull nomic-embed-text
 ```
 Ollama will automatically download the necessary model files.
