@@ -64,18 +64,22 @@ If successful, you should see the installed version number. An Ollama icon will 
 The nomic-embed-text model is an embedding model, which is specifically designed for generating the vector embeddings needed for your RAG system's retrieval step.
 
 Execute the Pull Command: In your Command Prompt or PowerShell, use the ollama pull command to download and install the model:
+
 ```bash
 ollama pull nomic-embed-text
 ```
+
 Ollama will automatically download the necessary model files.
 
 Note: This model is typically around 370 MB (for the latest version, such as nomic-embed-text:latest), so the download may take a few moments depending on your internet connection.
 
 Verify Model Installation: To confirm the model is available, you can list your local models:
 
-Bash
 
+```bash
 ollama list
+```
+
 You should see nomic-embed-text in the list of installed models.
 
 ## Usage
